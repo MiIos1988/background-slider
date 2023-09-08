@@ -16,7 +16,6 @@ arrowRight.addEventListener("click", () => {
         activeSlider = 1;
         document.body.style.backgroundImage = `url(img/img${activeSlider}.jpg)`;
         mainImg.setAttribute("src", `img/img${activeSlider}.jpg`)
-        // activeSlider++
     }
 });
 
@@ -28,9 +27,7 @@ arrowLeft.addEventListener("click", () => {
         mainImg.setAttribute("src", `img/img${activeSlider}.jpg`)
 
     } else {
-        // activeSlider = numImg;
         document.body.style.backgroundImage = `url(img/img${activeSlider}.jpg)`;
         mainImg.setAttribute("src", `img/img${activeSlider}.jpg`)
-
     }
 })
